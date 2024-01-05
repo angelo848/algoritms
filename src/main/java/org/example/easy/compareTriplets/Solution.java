@@ -1,4 +1,4 @@
-package org.example.exercise2;
+package org.example.easy.compareTriplets;
 
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;

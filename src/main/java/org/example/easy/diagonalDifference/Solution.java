@@ -1,4 +1,4 @@
-package org.example.exercise4;
+package org.example.easy.diagonalDifference;
 
 import static java.util.stream.Collectors.toList;
 

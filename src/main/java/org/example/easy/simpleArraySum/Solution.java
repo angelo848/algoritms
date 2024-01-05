@@ -1,4 +1,4 @@
-package org.example.exercise1;
+package org.example.easy.simpleArraySum;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

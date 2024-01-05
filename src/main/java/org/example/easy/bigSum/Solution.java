@@ -1,4 +1,4 @@
-package org.example.exercise3;
+package org.example.easy.bigSum;
 
 import static java.util.stream.Collectors.toList;
 

@@ -1,4 +1,4 @@
-package org.example.exercise5;
+package org.example.easy.plusMinus;
 
 import static java.util.stream.Collectors.toList;
 
