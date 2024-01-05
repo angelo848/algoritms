@@ -3,6 +3,7 @@ package org.example.easy.minMaxSum;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.security.spec.RSAOtherPrimeInfo;
 import java.util.List;
 import java.util.stream.Stream;
 
@@ -18,12 +19,23 @@ class Result {
 
     public static void miniMaxSum(List<Integer> arr) {
         // Write your code here
-        Integer minSum;
-        Integer maxSum;
-        int acc = 1;
-        do {
-
-        } while (acc < arr.size());
+        List<Long> arrLong = arr.stream().map(Integer::longValue).collect(toList());
+        long minSum = arrLong.stream().reduce(Long::sum).orElse(0L);
+        long maxSum = 0;
+        for (int i = 0; i < arrLong.size(); i++) {
+            long acc = 0;
+            for (int j = 0; j < arrLong.size(); j++) {
+                if (j != i) {
+                    acc += arrLong.get(j);
+                }
+            }
+            if (acc < minSum) {
+                minSum = acc;
+            }
+            if (acc > maxSum) {
+                maxSum = acc;
+            }
+        }
 
         System.out.printf("%d %d", minSum, maxSum);
     }
