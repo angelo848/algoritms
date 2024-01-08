@@ -15,6 +15,7 @@ import static java.util.stream.Collectors.toList;
 class Result {
 
     /*
+     * Hackerrank link: https://www.hackerrank.com/challenges/grading
      * Complete the 'gradingStudents' function below.
      *
      * The function is expected to return an INTEGER_ARRAY.

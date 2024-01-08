@@ -13,6 +13,7 @@ import java.util.stream.Stream;
 class Result {
 
   /*
+   * Hackerrank link: https://www.hackerrank.com/challenges/a-very-big-sum
    * Complete the 'aVeryBigSum' function below.
    *
    * The function is expected to return a LONG_INTEGER.

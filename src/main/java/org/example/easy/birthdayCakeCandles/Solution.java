@@ -13,6 +13,7 @@ import static java.util.stream.Collectors.toList;
 class Result {
 
     /*
+     * Hackerrank link: https://www.hackerrank.com/challenges/birthday-cake-candles
      * Complete the 'birthdayCakeCandles' function below.
      *
      * The function is expected to return an INTEGER.

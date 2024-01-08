@@ -15,6 +15,7 @@ import java.util.stream.Stream;
 class Result {
 
   /*
+   * Hackerrank link: https://www.hackerrank.com/challenges/compare-the-triplets/problem
    * Complete the 'compareTriplets' function below.
    *
    * The function is expected to return an INTEGER_ARRAY.

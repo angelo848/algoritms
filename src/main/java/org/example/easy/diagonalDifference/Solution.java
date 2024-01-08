@@ -15,6 +15,7 @@ import java.util.stream.Stream;
 class Result {
 
   /*
+   * Hackerrank link: https://www.hackerrank.com/challenges/diagonal-difference
    * Complete the 'diagonalDifference' function below.
    *
    * The function is expected to return an INTEGER.

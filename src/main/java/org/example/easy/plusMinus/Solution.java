@@ -11,6 +11,7 @@ import java.util.stream.Stream;
 class Result {
 
   /*
+   * Hackerrank link: https://www.hackerrank.com/challenges/plus-minus
    * Complete the 'plusMinus' function below.
    *
    * The function accepts INTEGER_ARRAY arr as parameter.

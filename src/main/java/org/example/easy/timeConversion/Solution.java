@@ -11,6 +11,7 @@ import java.time.format.DateTimeFormatter;
 class Result {
 
     /*
+     * Hackerrank link: https://www.hackerrank.com/challenges/time-conversion
      * Complete the 'timeConversion' function below.
      *
      * The function is expected to return a STRING.

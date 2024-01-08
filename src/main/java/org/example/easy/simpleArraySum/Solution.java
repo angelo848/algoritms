@@ -12,6 +12,7 @@ import java.util.stream.Stream;
 class Result {
 
   /*
+   * Hackerrank link: https://www.hackerrank.com/challenges/simple-array-sum/problem
    * Complete the 'simpleArraySum' function below.
    *
    * The function is expected to return an INTEGER.

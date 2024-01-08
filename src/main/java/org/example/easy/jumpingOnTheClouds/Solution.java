@@ -13,6 +13,7 @@ import java.util.stream.Stream;
 class Result {
 
   /*
+   * Hackerrank link: https://www.hackerrank.com/challenges/jumping-on-the-clouds
    * Complete the 'jumpingOnClouds' function below.
    *
    * The function is expected to return an INTEGER.

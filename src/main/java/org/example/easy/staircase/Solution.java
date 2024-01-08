@@ -7,6 +7,7 @@ import java.io.InputStreamReader;
 class Result {
 
     /*
+     * Hackerrank link: https://www.hackerrank.com/challenges/staircase
      * Complete the 'staircase' function below.
      *
      * The function accepts INTEGER n as parameter.

@@ -9,6 +9,7 @@ import java.io.InputStreamReader;
 class Result {
 
   /*
+   * Hackerrank link: https://www.hackerrank.com/challenges/counting-valleys
    * Complete the 'countingValleys' function below.
    *
    * The function is expected to return an INTEGER.
