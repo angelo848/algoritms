@@ -15,7 +15,7 @@ class Result {
    * The function accepts INTEGER_ARRAY q as parameter.
    */
 
-  private static void minimumBribes(int[] arr) {
+  public static void minimumBribes(int[] arr) {
     int swapCount = 0;
 
     for (int i = arr.length - 1; i >= 0; i--) {
