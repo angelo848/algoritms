@@ -24,20 +24,23 @@ class Result {
 
   public static int hourglassSum(List<List<Integer>> arr) {
     // Write your code here
-    int maxHourglassSum = Integer.MIN_VALUE;
-    for (int i = 0; i < arr.size() - 2; i++) {
-      for (int j = 0; j < arr.size() - 2; j++) {
-        int currentHourglassSum = arr.get(i).get(j) + arr.get(i).get(j + 1) + arr.get(i).get(j + 2)
-                                  + arr.get(i + 1).get(j + 1)
-                                  + arr.get(i + 2).get(j) + arr.get(i + 2).get(j + 1) + arr.get(i + 2).get(j + 2);
-
-        if (currentHourglassSum > maxHourglassSum) {
-          maxHourglassSum = currentHourglassSum;
+    int highestSum = -64;
+    for (int i = 1; i < (arr.size() - 1); i++) {
+      for (int j = 1; j < (arr.get(i).size() - 1); j++) {
+        int sum = arr.get(i - 1).get(j - 1) +
+                  arr.get(i - 1).get(j) +
+                  arr.get(i - 1).get(j + 1) +
+                  arr.get(i).get(j) +
+                  arr.get(i + 1).get(j - 1) +
+                  arr.get(i + 1).get(j) +
+                  arr.get(i + 1).get(j + 1);
+        if (sum > highestSum) {
+          highestSum = sum;
         }
       }
     }
 
-    return maxHourglassSum;
+    return highestSum;
   }
 
 }
@@ -52,9 +55,9 @@ public class Solution {
     IntStream.range(0, 6).forEach(i -> {
       try {
         arr.add(
-            Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
-                .map(Integer::parseInt)
-                .collect(toList())
+          Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
+            .map(Integer::parseInt)
+            .collect(toList())
         );
       } catch (IOException ex) {
         throw new RuntimeException(ex);
