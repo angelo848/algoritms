@@ -3,6 +3,8 @@ package org.example.medium.wordSearch;
 import java.util.List;
 import java.util.Map;
 
+// LeetCode problem: https://leetcode.com/problems/word-search/description/
+
 public class Solution {
 
   public static boolean exist(char[][] board, String word) {

@@ -16,6 +16,7 @@ import static java.util.stream.Collectors.toList;
 class Result {
 
   /*
+   * Hackerrank link: https://www.hackerrank.com/challenges/between-two-sets/problem
    * Complete the 'getTotalX' function below.
    *
    * The function is expected to return an INTEGER.
